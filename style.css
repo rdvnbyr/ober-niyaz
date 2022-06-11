@@ -104,3 +104,21 @@ main form {
 .form-submit button {
   width: 100%;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+}
+
+table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+table th,
+table td {
+  padding: 8px 16px;
+  text-align: left;
+  border-right: 1px solid #ccc;
+}
